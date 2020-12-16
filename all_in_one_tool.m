@@ -20,9 +20,7 @@ function all_in_one_tool_OpeningFcn(hObject, eventdata, handles, varargin)
 handles.output = hObject;
 guidata(hObject, handles);
 beep off
-addpath('C:\Users\leand\Desktop\chasing_2019\codes\dlt\DigitizingTools_20180828\DigitizingTools\dltdv')
-addpath('C:\Users\leand\Desktop\chasing_2019\codes\ARBO_MATLAB\functions')
-addpath('C:\Users\leand\Desktop\chasing_2019\codes\ARBO_MATLAB')
+addpath('functions')
 
 function varargout = all_in_one_tool_OutputFcn(hObject, eventdata, handles)
 varargout{1} = handles.output;
